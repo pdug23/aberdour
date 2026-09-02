@@ -12,7 +12,11 @@ out/
 
 # Raw media — never committed, processed + uploaded to Vercel Blob instead
 /media/raw/
+/media/processed/
+/media/.uploads.json
 
 # Misc
 .DS_Store
 *.log
+.vercel
+.env*
