@@ -21,7 +21,7 @@ export interface MediaItem {
 export type Filter = "all" | "photo" | "video";
 
 export const SITE = {
-  name: "Aberdour",
+  name: "A weekend in Aberdour",
   dates: "28.08.26–31.08.26",
   coords: "56.0556° N, 3.2989° W",
 } as const;

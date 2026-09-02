@@ -101,17 +101,18 @@ main { padding-bottom: 14vh; }
 .masthead {
   display: grid;
   grid-template-columns: 1fr auto 1fr;
-  align-items: end;
+  align-items: center;
   gap: 24px;
   padding: clamp(28px, 4vw, 56px) var(--gutter) 0;
 }
 
 .masthead__name {
   margin: 0;
+  text-align: center;
   font-family: var(--serif);
   font-weight: 300;
   font-style: italic;
-  font-size: clamp(3rem, 7.5vw, 6.75rem);
+  font-size: clamp(1.9rem, 4vw, 3.4rem);
   line-height: 1;
   letter-spacing: -0.02em;
   color: var(--ink);
@@ -122,7 +123,7 @@ main { padding-bottom: 14vh; }
 
 .masthead__dates,
 .masthead__coords {
-  margin: 0 0 0.5em;
+  margin: 0;
   font-family: var(--mono);
   font-size: 0.68rem;
   font-weight: 500;
@@ -440,9 +441,9 @@ main { padding-bottom: 14vh; }
     align-items: baseline;
     row-gap: 14px;
   }
-  .masthead__name { grid-column: 1 / -1; }
+  .masthead__name { grid-column: 1 / -1; order: -1; }
   .masthead__dates,
-  .masthead__coords { margin: 0; font-size: 0.6rem; letter-spacing: 0.16em; }
+  .masthead__coords { font-size: 0.6rem; letter-spacing: 0.16em; }
 
   .toolbar { flex-wrap: wrap; }
   .seg button { padding: 9px 12px; font-size: 0.58rem; letter-spacing: 0.16em; }
