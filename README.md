@@ -17,6 +17,11 @@ npm run dev        # http://localhost:3000
 npm run build
 ```
 
+## Deploy
+
+GitHub `pdug23/aberdour` is connected to the Vercel project: every push to `main` deploys production
+at https://aberdour.vercel.app. `vercel deploy --prod` from the CLI still works as a manual fallback.
+
 ## Media pipeline
 
 Drop originals into `media/raw/` (gitignored), then:
