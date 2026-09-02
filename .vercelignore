@@ -1,0 +1,5 @@
+# Media lives in Vercel Blob; never upload originals or processed variants with the deploy
+media/raw
+media/processed
+media/.uploads.json
+.env.local
