@@ -1,0 +1,18 @@
+# Dependencies
+node_modules/
+
+# Next.js
+.next/
+out/
+
+# Env
+.env
+.env.local
+.env*.local
+
+# Raw media — never committed, processed + uploaded to Vercel Blob instead
+/media/raw/
+
+# Misc
+.DS_Store
+*.log
